@@ -1,6 +1,6 @@
-# BEQuery-Java
+# BEQuery-Java - Library Query Minecraft Bedrock Server
 
-A Java Library which allows plugins to query other servers for a selection of information
+Java library that allows to query other minecraft bedrock servers to get information options
 
 Base Code (PHP Language for Pocketmine) >>> https://github.com/jasonw4331/libpmquery
 
