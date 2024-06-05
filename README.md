@@ -26,6 +26,30 @@ Required Java 8 or higher to use this library
     <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
+### Recommended
+add it to your project's pom.xml, this will build your project and automatically include your .jar / dependencies so no need to bother installing external libraries
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.4</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                    <configuration>
+                        <createDependencyReducedPom>false</createDependencyReducedPom>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+```
 
 
 ## Example
