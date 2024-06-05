@@ -47,11 +47,11 @@ public class BEQuery {
     }
 
     public static BEQuery connect(String host, int port) throws BEQueryException{
-        return connect(host, port, 4);
+        return connect(host, port, 4000);
     }
 
     public static BEQuery connect(String host) throws BEQueryException{
-        return connect(host, 19132, 4);
+        return connect(host, 19132);
     }
 
     private static byte[] createQueryPacket() {

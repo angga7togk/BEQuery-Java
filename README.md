@@ -57,8 +57,8 @@ add it to your project's pom.xml, this will build your project and automatically
 try{
     // host
     // port default = 19132
-    // timeout default = 4
-    BEQuery query = BEQuery.connect("localhost", 19132, 4);
+    // timeout default = 4000
+    BEQuery query = BEQuery.connect("localhost", 19132, 4000);
 
     // information list
     System.out.println(query.getGameName());
