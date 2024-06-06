@@ -23,7 +23,7 @@ Required Java 8 or higher to use this library
 <dependency>
     <groupId>com.github.angga7togk</groupId>
     <artifactId>BEQuery-Java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 </dependency>
 ```
 ### Recommended
